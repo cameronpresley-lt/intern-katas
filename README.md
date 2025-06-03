@@ -22,6 +22,6 @@
      You should receive a message stating that you're now using v22.16.0
 1. To check that `npm` is working, run `npm install` which will install all the libraries for the test project
 1. After the installation completes, run `npm test`, which will run the automated test suite.
-1. After the test suite passes, run `npm start` which will execute the code in `src/index.ts`
+1. After the test suite passes, run `npm start` which will execute the code in `01-testing/src/index.ts`
 
 🎉 If all that works, your tooling has been successfully configured 🎉!
