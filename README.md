@@ -14,7 +14,7 @@
      nvm install
      nvm use
      ```
-   - On Windows:
+   - On Windows (using PowerShell):
      ```pwsh
      nvm install (Get-Content .\.nvmrc)
      nvm use (Get-Content .\.nvmrc)
