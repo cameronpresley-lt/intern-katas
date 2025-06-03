@@ -1,10 +1,11 @@
 {
-  "name": "001-testing",
+  "name": "intern-katas",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "ts-node src/index.ts"
+    "test-01": "jest 01-testing",
+    "start-01": "ts-node 01-testing/src/index.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

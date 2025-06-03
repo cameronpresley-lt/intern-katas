@@ -11,11 +11,13 @@
 1. To test that NVM is working, run the following
    - On Mac:
      ```sh
+     nvm install
      nvm use
      ```
    - On Windows:
      ```pwsh
-     nvm use ($Get-Content .\.nvmrc)
+     nvm install (Get-Content .\.nvmrc)
+     nvm use (Get-Content .\.nvmrc)
      ```
      You should receive a message stating that you're now using v22.16.0
 1. To check that `npm` is working, run `npm install` which will install all the libraries for the test project
