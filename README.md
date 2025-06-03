@@ -7,7 +7,7 @@
 
 ## Testing Your Tooling
 
-1. Open a command prompt, and navigate to `001-testing`
+1. Open a command prompt, and navigate to root of repository
 1. To test that NVM is working, run the following
    - On Mac:
      ```sh
