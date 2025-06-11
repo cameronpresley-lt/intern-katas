@@ -5,6 +5,9 @@
   "scripts": {
     "test-01": "jest 01-testing",
     "start-01": "ts-node 01-testing/src/index.ts",
+    "test-02": "jest 02-greeting",
+    "test-03-functional": "jest 03-mars-rover/functional",
+    "test-03-class": "jest 03-mars-rover/class",
     "test": "jest",
     "start": "npm run start-01"
   },
@@ -19,5 +22,8 @@
     "ts-jest": "^29.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.3"
   }
 }
